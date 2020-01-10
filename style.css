@@ -11,7 +11,7 @@
     float: left;
     font-size: 18px;
     height: 52px;
-    line-height: 52px;
+    line-height: 50px;
     margin-right: 15px;
     text-align: center;
     width: 52px;
@@ -25,8 +25,30 @@
     background-color: #f8b239;
     color: #fff;
 }
+.graduates-head{
+    height: 50px;
+    width: 50px;
+}
+.reserch{
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+.reserch-li{
+    padding-top: 13 px;
+}
+.reserch-hr{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    background-color: rgb(248, 178, 57);
+    height: 1px;
+}
+.about-hight{
+    height: 525px;
+}
 .offer-text {
     overflow: hidden;
+    padding-left: 20px;
 }
 .offer-text > h3 {
     font-size: 16px;
@@ -34,6 +56,9 @@
 }
 .service-all {
     padding: 60px 30px;
+}
+.service-all-item{
+    padding-top: 10px;
 }
 .service-all h2 {
     font-size: 24px;
@@ -48,7 +73,7 @@
 }
 .service-from > h3 {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 22px;
     text-align: center;
@@ -63,7 +88,7 @@
     margin: 20px 0;
 }
 .service-from {
-    padding: 51px 30px 49px;
+    padding: 41px 20px 49px
 }
 .orderby-wrapper label {
     color: #fff;
@@ -362,19 +387,25 @@ button.submit:hover::after {
     bottom: 0;
     color: #fff;
     left: 0;
-    padding: 8px 20px 10px;
+    padding: 5px 10px 5px;
     position: absolute;
     text-align: center;
     transition: all 0.3s ease 0s;
 }
+.faculty-img{
+    width: 145px;
+    height: 200px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
 .tb-publish,
 .tb-publish2 {
     display: block;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 550;
 }
 h3.blog-title {
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 500;
     margin-bottom: 7px;
 }
@@ -391,7 +422,8 @@ h3.blog-title {
 }
 .visual-inner {
   border: 1px solid #c1c1c1;
-  padding: 25px 7px 24px 197px;
+  padding: 25px 7px 24px 177px;
+  height: 440px;
 }
 .blog-content > p {
     margin-bottom: 0;
@@ -410,7 +442,7 @@ h3.blog-title {
 }
 .event-text-img {
     display: block;
-    overflow: hidden;
+    overflow: hidden;   
 }
 .blog-meta-2 {
     display: inline-block;
@@ -423,6 +455,9 @@ h3.blog-title {
 .news-date {
     display: block;
     overflow: hidden;
+    font-size: 15px;
+    color:#fff;
+    text-align: center;
 }
 .news-img {
     position: relative;
@@ -433,7 +468,8 @@ h3.blog-title {
 .news-date {
     bottom: -15px;
     left: 30px;
-    padding: 4px 0 2px 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     position: absolute;
     width: 300px;
 }
@@ -454,12 +490,33 @@ h3.blog-title {
 .img-text.gray-bg > p {
     padding: 3px 0 10px;
 }
-.img-text > h3 {
+.img-text h3 {
     font-size: 18px;
     font-weight: 500;
 }
+.img-text a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #666666;
+    text-decoration:underline
+}
 .img-text {
     padding: 32px 30px;
+}
+.courses-text{
+    padding: 32px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #666666;
+}
+.courses-text h3{
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom:5px;
+}
+.img-info{
+    text-indent:2em;
 }
 .news-img > img {
     width: 100%;

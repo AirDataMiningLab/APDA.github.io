@@ -81,7 +81,12 @@ NOTE: This is Header style file. All Header related style included in this file.
     margin: 0;
 }
 /*header-bottom main-menu */
-
+.head-container{
+    margin-left: auto;
+    margin-right:auto;
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .logo {
     padding-top: 20px;
 }
@@ -105,16 +110,15 @@ NOTE: This is Header style file. All Header related style included in this file.
 }
 .menu-area nav > ul > li {
     display: inline-block;
-    padding: 40px 13px;
+    padding: 40px 10px;
 }
 .menu-area nav > ul > li:last-child {
     padding-right: 0;
 }
 .menu-area nav > ul > li a {
     color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600; 
 }
 /* dropdown */
 

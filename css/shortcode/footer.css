@@ -4,9 +4,11 @@ Template Name: Eduguide - Education Html Template
 NOTE: This is Footer style file. All footer related style included in this file.
 
 --------------------------------------*/
-
+.footer-logo-bjtu{
+    width: 170px;
+}
 .footer-logo {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .footer-logo-address {
     border-bottom: 1px solid #787878;
@@ -132,6 +134,13 @@ NOTE: This is Footer style file. All footer related style included in this file.
     float: left;
     margin: 0 7px 7px 0;
     position: relative;
+}
+.footer-address >div>ul>li{
+    color: #fff;
+}
+.footer-container{
+    color: #fff;
+    text-align: center;
 }
 .img-one.f2-mrg {
     margin-right: 0;
